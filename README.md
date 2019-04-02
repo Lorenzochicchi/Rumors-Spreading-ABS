@@ -23,3 +23,5 @@ At the beginning, the model ask to enter the parameters of the simulation:
 -The time when repairers are inserted
 
 -The entering strategy
+
+You can use the model at the link: https://mybinder.org/v2/gh/Lorenzochicchi/Rumors-Spreading-ABS/master

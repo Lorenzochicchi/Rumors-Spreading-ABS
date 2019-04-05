@@ -1,4 +1,3 @@
-import random
 import networkx as nx
 from numpy import *
 from matplotlib import *

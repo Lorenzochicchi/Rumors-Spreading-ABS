@@ -1,9 +1,9 @@
 import numpy as np
-import math
+
 
 class Spreader:
     def __init__(self,spreader, List_rumor,Mem,L):
-        self.H_max=-math.log(1/Mem,2)
+        self.H_max=-np.math.log(1/Mem)
         self.spreader= spreader   
         self.memory =[[]]*Mem 
         self.major_rumor=[]

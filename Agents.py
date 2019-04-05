@@ -44,7 +44,7 @@ class Spreader:
     #to choose if to distort major opinion
     def ValutaDistorsioni(self,K,L):
         if self.major_rumor!=[]:
-            Pdist=1/(math.exp((self.H_max-self.entropy)/self.H_max*K)+1)
+            Pdist=1/(np.math.exp((self.H_max-self.entropy)/self.H_max*K)+1)
             r=np.random.random()
             if r<Pdist:
                 Dist=self.major_rumor.copy()

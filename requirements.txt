@@ -1,6 +1,4 @@
 matplotlib
 networkx
 numpy
-random
 math
-pickle

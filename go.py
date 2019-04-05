@@ -1,5 +1,4 @@
 import networkx as nx
-import pickle
 from Agents import *
 from Functions import *
 
